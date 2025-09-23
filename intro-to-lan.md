@@ -42,6 +42,8 @@
  * also known as **Token Topology**
  * Device send data across the loop and other devices send this data forward until it reaches the destined devices. The forwarding device only forward if it doesn't have and data to sent otherwise it also shares it's own data first.
  * Cheap as only cable requires but not fault tolerant as cable may be get weak and broken.
+ * <img width="588" height="600" alt="ring-topology2" src="https://github.com/user-attachments/assets/0bce6573-bcfc-4b2b-8360-49b56037f388" />
+
 
  ---
 
