@@ -70,6 +70,7 @@
  # *Subnetting*
 
   * Splitting of network into more smaller networks within itself.
+  * For Example In a cafe there is 2 network one for employee and one for customers so that they both don't interrupt each other and it will also increases the efficiency.
   * **Subnet Mask** = Splitting up the No. of hosts can be fitted into a network. It is of 4 bytes (32 bits).
   * It uses IP Address in 3 ways:
      * Identify the **Network Address** = It is the address of start of network tells about existence of network.
