@@ -38,7 +38,21 @@
   * It also do work of reassembly of packets means combining the data chunks/packets to see the full received data and vice-versa.
 ---
 ## Layer 4 - Transport
-  * 
+  * When data is sent, it follows one of the two protocols:
+    * **TCP** = Transmission Control Protocol
+    * **UDP** = User Datagram Protocol
+  *  **TCP**
+     * It establishes a connection between devices for a period of time till the data is being sent or recieved by the devices.It provides gurantee(error checking) and reliability.
+     * **Advantages:**
+      * reliability and accuracy of data.
+      * capable of synchronization and prevent the network from flooding of data.
+     * **Disadvantages**
+      * slower than UDP
+      * cause bottleneck for other device
+      * requires reliable connection between 2 devices, if one chunk of data is not recieved then whole data is a waste.
+     * used for the situation where data needed to be complete and accurate like file sharing, emails or internet browsing.
+  
+            
 
 
 
