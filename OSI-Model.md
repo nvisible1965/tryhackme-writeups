@@ -51,7 +51,36 @@
       * cause bottleneck for other device
       * requires reliable connection between 2 devices, if one chunk of data is not recieved then whole data is a waste.
      * used for the situation where data needed to be complete and accurate like file sharing, emails or internet browsing.
-  
+  * **UDP**
+    * No error checking,connectionless,doesn't provide gurantee and not reliable as much as TCP and no sychrozation.
+      * **Advantages**
+       * Faster than TCP
+       * Connectionless so no bottleneck
+       * It leaves on Application layer to decide how fast the packet should move.
+     * **Disdvantages**
+       * It doesn't care if data is being recieved or not.
+       * Unstable connection due to which user may face terrible issues.
+    * Useful for small data to sent.
+    * Protocols used for discovering devices, Video calls where pixels can be used, larger files.
+ ---
+ ## Layer 5 - Session
+  * It creates and maintains the connection to the other device.When connection is established, the session is created.
+  * It is also responsible for closing of connection if it is not being used or lost.
+  * Session also have 'Checkpoints' so when data get lost only the newest data needed to be resent and this saves the bandwidth(capacity of a link to transmit data).
+---
+## Layer 6 - Presentation
+ * Standardisation happens that means if any software developer built email client software but the data still needed to be handled the same way doesn't matter how the software works.
+ * Translator as the data sent to other device which is not in understandable format by other device then this layer translate that data and display it as needed.
+ * Encryption of data happens and give security to data
+---
+### Layer 7 - Application
+ * Protocols determines how the user should interact with data sent or recieved.
+ * Applications like email client software, internet browser, file sharing browser provides Graphical User Interface(GUI) for user to interact.
+ * DNS protocol is also on application layer it is how the website addresses in numbers IP 192.168.1.1 is into domain name system like tryhackme.com.
+---
+---
+---
+# Thank You
             
 
 
