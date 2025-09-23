@@ -101,7 +101,7 @@
     * If we don't give IP address manually then it will find DHCP server in network for IP address **DHCP discover**
     * Then DHCP server offers an IP or ask that do you want 192.1.1.4 IP address **DHCP offer**
     * Then, we gonna say yes we want that IP address **DHCP request**
-    * At last, DHCP server sends an acknowledgment that now we can use this IP address.
+    * At last, DHCP server sends an acknowledgment that now we can use this IP address **DHCP Acknowledgement**.
   
 ---
 
