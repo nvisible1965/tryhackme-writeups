@@ -52,7 +52,7 @@
    * **Source Port** - It is the value of port that is opened by the sender to send the TCP Packet. It is a random number between 0-65535.
    * **Destination Port** - It is the port number on which the application or service is running on unlike the source port it is not choosen random it is fixed.(Webserver on Port 80)
    * **Source IP** - It is the IP address of the device which is sending the data
-   * **Destination IP** - It is the IP address of the device whih is recieving the data.
+   * **Destination IP** - It is the IP address of the device which is receiving the data.
    * **Sequence Number** - When connection occurs, the first piece of data is given a random number.
    * **Acknowledgement Number** - After the first piece of data the second piece of data is given the sequence number +1 this is the acknowledgment number.
    * **Checksum** - Provides integrity to TCP. It is value of sum which is checked by the reciever if it's value is correct(expected value) then data is correct but if value is not same then the data maybe missing or corrupted.
