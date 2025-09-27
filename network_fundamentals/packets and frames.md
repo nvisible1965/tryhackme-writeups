@@ -67,4 +67,7 @@
     * Special messages or Flags of Three Way Handshake is :
       * **SYN** - A SYN is the initial packet sent by a client to initiate a connection and establish it and synchronise the two devices.
       * **SYN/ACK** - This is the acknowledgment sent by the server(receiving device) acknowledging the attempt of sychronisation from client.
-      * 
+      * **ACK** - This is send by either client or server to acknowledge that series of packet of data is received.
+      * **DATA** - After connection establishment the data is then sent by 'Data' Message.
+      * **FIN** - This packet is sent after the data sent to properly close the connection.
+      * **#RST** - It abruptly ends the communication if there was some problem during the process and indicates it.
